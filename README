@@ -24,6 +24,10 @@ Ubuntu Distro ARM64
 	autoconf automake libglib2.0-dev libtool libpcre3-dev
 	flex bison dkms libfdt-dev libbsd-dev
 
+Alpine
+	autoconf automake libtool flex bison libbsd-dev g++ glib-dev make
+	libexecinfo-dev
+
 2) Kernel configuration
 
 Some tests depend on special Linux kernel configuration settings. These include:
