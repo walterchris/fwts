@@ -215,7 +215,7 @@ fwts_SOURCES = main.c 				\
 	$(power_mgmt_tests)			\
 	$(dt_tests)
 
-fwts_LDFLAGS = -no-undefined
+fwts_LDFLAGS = -no-undefined -lexecinfo
 
 fwts_LDADD = \
 	-lbsd \

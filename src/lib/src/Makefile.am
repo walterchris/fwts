@@ -27,7 +27,7 @@ AM_CPPFLAGS = \
 
 pkglib_LTLIBRARIES = libfwts.la
 
-libfwts_la_LDFLAGS = -version-info 1:0:0
+libfwts_la_LDFLAGS = -version-info 1:0:0 -lexecinfo
 
 libfwts_la_LIBADD = 				\
 	-lm -lpthread -lbsd				\

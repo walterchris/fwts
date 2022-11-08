@@ -35,6 +35,8 @@
 #include "fwts_uefi.h"
 #include "fwts_efi_runtime.h"
 
+# define __SWORD_TYPE		unsigned long int
+
 /* Old sysfs uefi packed binary blob variables */
 typedef struct {
 	uint16_t	varname[512];
